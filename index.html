@@ -1,0 +1,116 @@
+<h2 class="sr-only">Tabella riassuntiva delle tre opere principali di Italo Svevo: Una vita, Senilità e La coscienza di Zeno</h2>
+
+<style>
+  .svevo-wrap { padding: 1rem 0 2rem; font-size: 14px; }
+  .opera-header { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
+  .opera-title-card { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px 16px; }
+  .opera-name { font-size: 16px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .opera-meta { font-size: 12px; color: var(--color-text-secondary); margin: 0; }
+  .section-label { font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-tertiary); padding: 1.2rem 0 0.5rem; border-top: 0.5px solid var(--color-border-tertiary); margin-top: 0.5rem; }
+  .rows-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .cell { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 12px 14px; color: var(--color-text-primary); line-height: 1.55; }
+  .cell p { margin: 0 0 6px; }
+  .cell p:last-child { margin-bottom: 0; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin: 0 4px 4px 0; }
+  .b-coral { background: #FAECE7; color: #993C1D; }
+  .b-teal  { background: #E1F5EE; color: #0F6E56; }
+  .b-blue  { background: #E6F1FB; color: #185FA5; }
+  .char-name { font-weight: 500; color: var(--color-text-primary); }
+  .char-role { color: var(--color-text-secondary); }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .tag { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 3px 10px; font-size: 12px; color: var(--color-text-secondary); }
+  @media (max-width: 600px) {
+    .opera-header, .rows-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="svevo-wrap">
+
+  <div class="opera-header">
+    <div class="opera-title-card" style="border-top: 3px solid #D85A30;">
+      <p class="opera-name">Una vita</p>
+      <p class="opera-meta">1892 · primo romanzo</p>
+    </div>
+    <div class="opera-title-card" style="border-top: 3px solid #1D9E75;">
+      <p class="opera-name">Senilità</p>
+      <p class="opera-meta">1898 · secondo romanzo</p>
+    </div>
+    <div class="opera-title-card" style="border-top: 3px solid #378ADD;">
+      <p class="opera-name">La coscienza di Zeno</p>
+      <p class="opera-meta">1923 · terzo romanzo</p>
+    </div>
+  </div>
+
+  <div class="section-label">Trama</div>
+  <div class="rows-grid">
+    <div class="cell">
+      <p>Alfonso Nitti, giovane impiegato di campagna, si trasferisce a Trieste per lavorare in una banca. Sogna di diventare scrittore ma non riesce a emergere. Si invaghisce di Annetta, figlia del padrone, la seduce e poi la abbandona. Sopraffatto dal fallimento e dalla vergogna, si suicida.</p>
+    </div>
+    <div class="cell">
+      <p>Emilio Brentani, scrittore mediocre con un posto fisso, si innamora di Angiolina, una ragazza del popolo frivola e disonesta. Il rapporto è tormentato da gelosia e autoinganni. Nel frattempo la sorella Amalia si consuma di una passione segreta per Stefano Balli. Amalia muore; Angiolina scompare. Emilio idealizza entrambe nel ricordo.</p>
+    </div>
+    <div class="cell">
+      <p>Zeno Cosini scrive le sue memorie su richiesta del dottor S., suo psicanalista. Racconta per temi: il vizio del fumo, la morte del padre, il matrimonio (sposa Augusta pur amando Ada), l'amante Carla, l'associazione commerciale con Guido. Conclude con una visione apocalittica della modernità.</p>
+    </div>
+  </div>
+
+  <div class="section-label">Personaggi principali</div>
+  <div class="rows-grid">
+    <div class="cell">
+      <p><span class="char-name">Alfonso Nitti</span> — <span class="char-role">protagonista inetto, intellettuale frustrato, incapace di agire</span></p>
+      <p><span class="char-name">Annetta Maller</span> — <span class="char-role">figlia del banchiere, oggetto del desiderio e della fuga di Alfonso</span></p>
+      <p><span class="char-name">Macario</span> — <span class="char-role">cugino di Annetta, vincente e mondano, antagonista simbolico</span></p>
+    </div>
+    <div class="cell">
+      <p><span class="char-name">Emilio Brentani</span> — <span class="char-role">protagonista inetto, letterato fallito, prigioniero delle illusioni</span></p>
+      <p><span class="char-name">Angiolina</span> — <span class="char-role">bella e inaffidabile, idealizzata da Emilio nonostante la realtà</span></p>
+      <p><span class="char-name">Amalia</span> — <span class="char-role">sorella di Emilio, repressa e destinata alla morte</span></p>
+      <p><span class="char-name">Stefano Balli</span> — <span class="char-role">scultore sicuro di sé, amico di Emilio e inconsapevole oggetto di Amalia</span></p>
+    </div>
+    <div class="cell">
+      <p><span class="char-name">Zeno Cosini</span> — <span class="char-role">protagonista inattendibile e autoironico, l'inetto che "vince"</span></p>
+      <p><span class="char-name">Augusta</span> — <span class="char-role">moglie pratica e sana, contrapposta alla nevroticità di Zeno</span></p>
+      <p><span class="char-name">Ada</span> — <span class="char-role">donna amata e irraggiungibile, sposa Guido</span></p>
+      <p><span class="char-name">Guido Speier</span> — <span class="char-role">cognato apparentemente superiore a Zeno, si rivela un fallito</span></p>
+      <p><span class="char-name">Dottor S.</span> — <span class="char-role">psicanalista che pubblica le memorie per vendetta</span></p>
+    </div>
+  </div>
+
+  <div class="section-label">Temi e analisi</div>
+  <div class="rows-grid">
+    <div class="cell">
+      <p>Il romanzo introduce la figura dell'<strong>inetto</strong>: un individuo che non riesce ad adattarsi alla società borghese. Alfonso è paralizzato dalla volontà ma incapace di tradurla in azione.</p>
+      <p>Influenze di <strong>Schopenhauer</strong> (volontà cieca), <strong>Darwin</strong> (lotta per la sopravvivenza) e naturalismo di Zola. Il suicidio finale è un atto paradossale: l'unico gesto deciso di tutta la sua vita.</p>
+      <div class="tag-row">
+        <span class="tag">inettitudine</span>
+        <span class="tag">determinismo</span>
+        <span class="tag">critica borghese</span>
+      </div>
+    </div>
+    <div class="cell">
+      <p>Il titolo è metaforico: Emilio è giovane ma già <strong>invecchiato nell'anima</strong>, incapace di vivere pienamente. Il tema centrale è l'<strong>autoinganno</strong>: Emilio costruisce un'immagine falsa di Angiolina per sopportare la realtà.</p>
+      <p>Presenza di <strong>Nietzsche</strong> (Balli come superuomo) e di un inconscio ante-letterà: il protagonista non comprende se stesso. La prosa adotta la psicologia dei personaggi con un narratore in terza persona parzialmente inattendibile.</p>
+      <div class="tag-row">
+        <span class="tag">autoinganno</span>
+        <span class="tag">memoria distorta</span>
+        <span class="tag">desiderio e fuga</span>
+      </div>
+    </div>
+    <div class="cell">
+      <p>Opera più matura e innovativa. Struttura <strong>non lineare e tematica</strong> (non cronologica). Zeno è un <strong>narratore inattendibile</strong>: mente a se stesso e al lettore. La psicanalisi freudiana è sia strumento narrativo sia bersaglio di ironia.</p>
+      <p>L'inetto qui non fallisce: grazie alla sua incoerenza sopravvive. Il finale apocalittico proietta la malattia individuale sulla <strong>civiltà intera</strong>. Svevo anticipa temi del modernismo europeo (Joyce, con cui era amico).</p>
+      <div class="tag-row">
+        <span class="tag">psicanalisi</span>
+        <span class="tag">narratore inattendibile</span>
+        <span class="tag">modernismo</span>
+        <span class="tag">ironia</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Filo conduttore</div>
+  <div class="cell" style="background: var(--color-background-secondary); border-radius: var(--border-radius-lg);">
+    Nelle tre opere si evolve la figura dell'<strong>inetto sveviano</strong>: da Alfonso (che muore sconfitto) a Emilio (che sopravvive nell'illusione) fino a Zeno (che trasforma l'inettitudine in arma ironica). Costante è la critica alla borghesia triestina, il conflitto tra ideale e realtà, e la centralità di una <strong>coscienza che non riesce a conoscere se stessa</strong>.
+  </div>
+
+</div>
